@@ -1,0 +1,4 @@
+interface:
+  display_name: "HarmonyOS Release Check"
+  short_description: "Verify release artifacts before publication"
+  default_prompt: "Use $harmonyos-release-check to run the final evidence-based release gate for this HarmonyOS artifact."

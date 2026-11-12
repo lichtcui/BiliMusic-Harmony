@@ -1,0 +1,4 @@
+interface:
+  display_name: "HarmonyOS Release Signing"
+  short_description: "Configure release signing without leaks"
+  default_prompt: "Use $harmonyos-release-signing to audit and configure HarmonyOS release signing while keeping credentials outside Git."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "HarmonyOS Project Audit"
+  short_description: "Audit HarmonyOS projects before edits"
+  default_prompt: "Use $harmonyos-project-audit to establish a read-only project baseline and propose the smallest safe next action."

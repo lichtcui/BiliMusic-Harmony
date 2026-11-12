@@ -1,0 +1,1528 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "wisp-music HarmonyOS application"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "wisp-music"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "wisp-music"
+    },
+    {
+      "name": "common_loading",
+      "value": "正在加载"
+    },
+    {
+      "name": "common_loading_message",
+      "value": "请稍候"
+    },
+    {
+      "name": "common_load_failed",
+      "value": "加载失败"
+    },
+    {
+      "name": "common_error_message",
+      "value": "请检查网络后重试"
+    },
+    {
+      "name": "common_empty_title",
+      "value": "暂无内容"
+    },
+    {
+      "name": "common_empty_message",
+      "value": "这里还没有可显示的内容"
+    },
+    {
+      "name": "startup_loading_title",
+      "value": "正在准备音乐"
+    },
+    {
+      "name": "startup_error_title",
+      "value": "暂时无法启动"
+    },
+    {
+      "name": "startup_error_description",
+      "value": "应用没有完成初始化。请检查设备状态后重试。"
+    },
+    {
+      "name": "startup_error_code_label",
+      "value": "错误码"
+    },
+    {
+      "name": "startup_retry",
+      "value": "重试"
+    },
+    {
+      "name": "nav_discover",
+      "value": "发现"
+    },
+    {
+      "name": "nav_mine",
+      "value": "我的"
+    },
+    {
+      "name": "nav_settings",
+      "value": "设置"
+    },
+    {
+      "name": "search_eyebrow",
+      "value": "发现音乐"
+    },
+    {
+      "name": "search_empty_title",
+      "value": "搜索"
+    },
+    {
+      "name": "search_empty_description",
+      "value": "搜索内容将在这里显示。"
+    },
+    {
+      "name": "search_input_placeholder",
+      "value": "搜索歌曲或作者"
+    },
+    {
+      "name": "search_idle_title",
+      "value": "寻找想听的音乐"
+    },
+    {
+      "name": "search_idle_message",
+      "value": "输入歌曲或作者后开始搜索。"
+    },
+    {
+      "name": "search_loading_title",
+      "value": "正在搜索"
+    },
+    {
+      "name": "search_loading_message",
+      "value": "正在获取搜索结果，请稍候。"
+    },
+    {
+      "name": "search_no_results_title",
+      "value": "没有找到相关音乐"
+    },
+    {
+      "name": "search_error_title",
+      "value": "搜索失败"
+    },
+    {
+      "name": "search_error_message",
+      "value": "请检查网络连接后重试。"
+    },
+    {
+      "name": "search_retry",
+      "value": "重试"
+    },
+    {
+      "name": "search_more_error",
+      "value": "加载更多结果失败，请稍后重试。"
+    },
+    {
+      "name": "login_account_sheet_title",
+      "value": "账号"
+    },
+    {
+      "name": "login_account_sheet_description",
+      "value": "bilibili 账号 · 已连接"
+    },
+    {
+      "name": "login_signed_out_title",
+      "value": "未登录"
+    },
+    {
+      "name": "login_signed_out_description",
+      "value": "扫码登录后可使用账号收藏与歌单。"
+    },
+    {
+      "name": "login_open",
+      "value": "登录"
+    },
+    {
+      "name": "login_signed_in",
+      "value": "已登录"
+    },
+    {
+      "name": "login_qr_hint",
+      "value": "打开 bilibili，使用「扫一扫」"
+    },
+    {
+      "name": "login_qr_notice",
+      "value": "二维码仅用于登录，请勿分享给他人"
+    },
+    {
+      "name": "login_scanned_description",
+      "value": "请在手机上确认登录，页面会自动更新。"
+    },
+    {
+      "name": "login_restart",
+      "value": "重新生成二维码"
+    },
+    {
+      "name": "login_retry",
+      "value": "重试"
+    },
+    {
+      "name": "login_expired_title",
+      "value": "二维码已过期"
+    },
+    {
+      "name": "login_expired_description",
+      "value": "请重新生成二维码后再次扫码。"
+    },
+    {
+      "name": "login_cancelled_title",
+      "value": "登录已取消"
+    },
+    {
+      "name": "login_cancelled_description",
+      "value": "本次登录已停止，你可以随时重新开始。"
+    },
+    {
+      "name": "login_error_title",
+      "value": "登录失败"
+    },
+    {
+      "name": "login_error_description",
+      "value": "暂时无法完成登录，请稍后重试。"
+    },
+    {
+      "name": "login_qr_unavailable",
+      "value": "二维码未能加载，请重新尝试。"
+    },
+    {
+      "name": "login_logout",
+      "value": "退出登录"
+    },
+    {
+      "name": "login_logout_busy",
+      "value": "正在退出"
+    },
+    {
+      "name": "login_logout_failed",
+      "value": "退出登录失败，请稍后重试。"
+    },
+    {
+      "name": "library_eyebrow",
+      "value": "你的音乐"
+    },
+    {
+      "name": "library_empty_title",
+      "value": "资料库"
+    },
+    {
+      "name": "library_empty_description",
+      "value": "收藏、歌单与最近播放将在这里显示。"
+    },
+    {
+      "name": "favorite_title",
+      "value": "我喜欢的"
+    },
+    {
+      "name": "favorite_hero_description",
+      "value": "把心动的歌都留在这里。按收藏顺序排列，点开任意一首，回到那个瞬间。"
+    },
+    {
+      "name": "favorite_back",
+      "value": "返回"
+    },
+    {
+      "name": "favorite_play_all",
+      "value": "全部播放"
+    },
+    {
+      "name": "favorite_error",
+      "value": "取消收藏失败，曲目仍保留在列表中，请稍后重试。"
+    },
+    {
+      "name": "favorite_error_dismiss",
+      "value": "知道了"
+    },
+    {
+      "name": "favorite_empty_title",
+      "value": "还没有收藏"
+    },
+    {
+      "name": "favorite_empty_description",
+      "value": "收藏的曲目会按资料库顺序出现在这里。"
+    },
+    {
+      "name": "favorite_empty_action",
+      "value": "去搜索"
+    },
+    {
+      "name": "favorite_select",
+      "value": "多选"
+    },
+    {
+      "name": "favorite_exit_select",
+      "value": "退出多选"
+    },
+    {
+      "name": "favorite_select_all",
+      "value": "全选"
+    },
+    {
+      "name": "favorite_delete",
+      "value": "删除"
+    },
+    {
+      "name": "favorite_add_to",
+      "value": "添加到"
+    },
+    {
+      "name": "recent_play_all",
+      "value": "全部播放"
+    },
+    {
+      "name": "recent_select",
+      "value": "多选"
+    },
+    {
+      "name": "recent_select_exit",
+      "value": "退出多选"
+    },
+    {
+      "name": "recent_select_all",
+      "value": "全选"
+    },
+    {
+      "name": "recent_delete",
+      "value": "删除"
+    },
+    {
+      "name": "recent_add_to",
+      "value": "添加到"
+    },
+    {
+      "name": "recent_favorite_error",
+      "value": "收藏状态更新失败，请稍后重试。"
+    },
+    {
+      "name": "recent_unknown_track",
+      "value": "未知曲目"
+    },
+    {
+      "name": "recent_unknown_artist",
+      "value": "未知作者"
+    },
+    {
+      "name": "recent_error",
+      "value": "最近播放记录更新失败，请稍后重试。"
+    },
+    {
+      "name": "recent_error_dismiss",
+      "value": "知道了"
+    },
+    {
+      "name": "recent_empty_title",
+      "value": "还没有最近播放"
+    },
+    {
+      "name": "recent_empty_description",
+      "value": "听过的歌会按时间顺序出现在这里。"
+    },
+    {
+      "name": "settings_general_section",
+      "value": "常规"
+    },
+    {
+      "name": "settings_cache_clear_label",
+      "value": "缓存清理"
+    },
+    {
+      "name": "settings_theme_mode",
+      "value": "主题模式"
+    },
+    {
+      "name": "settings_theme_light",
+      "value": "浅色"
+    },
+    {
+      "name": "settings_theme_dark",
+      "value": "深色"
+    },
+    {
+      "name": "settings_theme_system",
+      "value": "系统"
+    },
+    {
+      "name": "settings_data_section",
+      "value": "数据"
+    },
+    {
+      "name": "settings_download_section",
+      "value": "下载"
+    },
+    {
+      "name": "settings_download_quality",
+      "value": "下载品质"
+    },
+    {
+      "name": "settings_download_quality_note",
+      "value": "品质越高，下载文件越大；曲目缺少所选品质时会自动降级。"
+    },
+    {
+      "name": "settings_download_limit",
+      "value": "最多存储"
+    },
+    {
+      "name": "settings_download_limit_100",
+      "value": "100 首"
+    },
+    {
+      "name": "settings_download_limit_300",
+      "value": "300 首"
+    },
+    {
+      "name": "settings_download_limit_500",
+      "value": "500 首"
+    },
+    {
+      "name": "settings_download_limit_note",
+      "value": "达到上限后自动删除最早下载的曲目。"
+    },
+    {
+      "name": "settings_login",
+      "value": "登录"
+    },
+    {
+      "name": "settings_playback_section",
+      "value": "播放设置"
+    },
+    {
+      "name": "settings_audio_quality",
+      "value": "播放音质"
+    },
+    {
+      "name": "settings_audio_quality_note",
+      "value": "更高音质会消耗更多流量；曲目缺少所选档位时会自动降级。"
+    },
+    {
+      "name": "settings_show_lyrics",
+      "value": "歌词显示"
+    },
+    {
+      "name": "settings_restore_playback",
+      "value": "自动播放"
+    },
+    {
+      "name": "settings_write_failed",
+      "value": "设置保存失败，已恢复原值。"
+    },
+    {
+      "name": "settings_cache_images",
+      "value": "封面图片"
+    },
+    {
+      "name": "settings_cache_lyrics",
+      "value": "歌词"
+    },
+    {
+      "name": "settings_cache_audio",
+      "value": "音频"
+    },
+    {
+      "name": "settings_cache_entries_suffix",
+      "value": "项"
+    },
+    {
+      "name": "settings_cache_retention",
+      "value": "清理缓存不会影响收藏、歌单、登录状态、播放队列、最近播放或播放进度。"
+    },
+    {
+      "name": "settings_cache_clear_all_action",
+      "value": "清理全部缓存"
+    },
+    {
+      "name": "settings_cache_clearing",
+      "value": "清理中"
+    },
+    {
+      "name": "settings_cache_retry",
+      "value": "重试"
+    },
+    {
+      "name": "settings_cache_retrying",
+      "value": "重试中"
+    },
+    {
+      "name": "settings_cache_failed",
+      "value": "缓存操作失败，请稍后重试。"
+    },
+    {
+      "name": "settings_open_diagnostics",
+      "value": "诊断信息"
+    },
+    {
+      "name": "settings_about_section",
+      "value": "关于"
+    },
+    {
+      "name": "settings_app_version",
+      "value": "应用版本"
+    },
+    {
+      "name": "settings_author",
+      "value": "作者"
+    },
+    {
+      "name": "settings_author_value",
+      "value": "lichtcui"
+    },
+    {
+      "name": "settings_github",
+      "value": "GitHub"
+    },
+    {
+      "name": "settings_github_value",
+      "value": "lichtcui/wisp-music"
+    },
+    {
+      "name": "settings_legal",
+      "value": "法律与免责声明"
+    },
+    {
+      "name": "settings_legal_body",
+      "value": "本应用是第三方非官方客户端，与哔哩哔哩（bilibili）及其关联方没有隶属或合作关系。应用不内置、不存储、不提供任何音视频内容，搜索和播放均通过哔哩哔哩公开接口实时获取，内容版权归原作者及平台所有。本应用仍处于实验开发阶段，功能与稳定性可能变化。\n\n请仅将本应用用于个人学习与技术交流，不得用于商业用途或传播版权内容。使用本应用产生的任何后果由使用者自行承担，开发者不对内容的合法性、完整性与可用性作出保证。"
+    },
+    {
+      "name": "settings_about_ok",
+      "value": "知道了"
+    },
+    {
+      "name": "settings_back",
+      "value": "返回"
+    },
+    {
+      "name": "diagnostics_open",
+      "value": "诊断信息"
+    },
+    {
+      "name": "diagnostics_eyebrow",
+      "value": "支持"
+    },
+    {
+      "name": "diagnostics_title",
+      "value": "诊断信息"
+    },
+    {
+      "name": "diagnostics_description",
+      "value": "查看运行状态与脱敏摘要。"
+    },
+    {
+      "name": "diagnostics_loading",
+      "value": "正在读取诊断信息"
+    },
+    {
+      "name": "diagnostics_runtime_section",
+      "value": "运行状态"
+    },
+    {
+      "name": "diagnostics_runtime_label",
+      "value": "当前状态"
+    },
+    {
+      "name": "diagnostics_warning_count_label",
+      "value": "警告数量"
+    },
+    {
+      "name": "diagnostics_version_section",
+      "value": "版本"
+    },
+    {
+      "name": "diagnostics_app_version_label",
+      "value": "应用版本"
+    },
+    {
+      "name": "diagnostics_storage_version_label",
+      "value": "存储版本"
+    },
+    {
+      "name": "diagnostics_account_section",
+      "value": "账号与网络"
+    },
+    {
+      "name": "diagnostics_login_label",
+      "value": "登录状态"
+    },
+    {
+      "name": "diagnostics_network_label",
+      "value": "网络连接"
+    },
+    {
+      "name": "diagnostics_player_section",
+      "value": "播放器"
+    },
+    {
+      "name": "diagnostics_player_status_label",
+      "value": "播放状态"
+    },
+    {
+      "name": "diagnostics_player_queue_label",
+      "value": "队列曲目"
+    },
+    {
+      "name": "diagnostics_player_mode_label",
+      "value": "播放模式"
+    },
+    {
+      "name": "diagnostics_probe_section",
+      "value": "推荐接口探针"
+    },
+    {
+      "name": "diagnostics_probe_hint",
+      "value": "仅记录条数、页码与错误码，不写入曲目或封面地址。"
+    },
+    {
+      "name": "diagnostics_probe_discover",
+      "value": "探测发现流"
+    },
+    {
+      "name": "diagnostics_probe_recommend",
+      "value": "探测推荐流"
+    },
+    {
+      "name": "diagnostics_probe_label",
+      "value": "推荐探针"
+    },
+    {
+      "name": "diagnostics_error_section",
+      "value": "最近错误"
+    },
+    {
+      "name": "diagnostics_error_code_label",
+      "value": "错误码"
+    },
+    {
+      "name": "diagnostics_error_message_label",
+      "value": "用户提示"
+    },
+    {
+      "name": "diagnostics_privacy_summary",
+      "value": "仅显示固定状态与脱敏错误码，不包含账号、Cookie、令牌、二维码、媒体地址、日志或证书。"
+    },
+    {
+      "name": "diagnostics_privacy_copy",
+      "value": "隐私说明：未包含账号名、Cookie、令牌、二维码、媒体地址、日志或证书。"
+    },
+    {
+      "name": "diagnostics_copy",
+      "value": "复制诊断信息"
+    },
+    {
+      "name": "diagnostics_copy_header",
+      "value": "wisp-music 诊断信息"
+    },
+    {
+      "name": "diagnostics_copy_success",
+      "value": "已复制。内容不包含账号、Cookie、令牌、二维码、媒体地址、日志或证书。"
+    },
+    {
+      "name": "diagnostics_copy_failed",
+      "value": "复制失败，请稍后重试。"
+    },
+    {
+      "name": "diagnostics_close",
+      "value": "关闭"
+    },
+    {
+      "name": "diagnostics_runtime_ready",
+      "value": "已就绪"
+    },
+    {
+      "name": "diagnostics_runtime_initializing",
+      "value": "初始化中"
+    },
+    {
+      "name": "diagnostics_runtime_failed",
+      "value": "初始化失败"
+    },
+    {
+      "name": "diagnostics_runtime_shutting_down",
+      "value": "正在关闭"
+    },
+    {
+      "name": "diagnostics_runtime_stopped",
+      "value": "已停止"
+    },
+    {
+      "name": "diagnostics_runtime_unavailable",
+      "value": "服务不可用"
+    },
+    {
+      "name": "diagnostics_runtime_idle",
+      "value": "等待启动"
+    },
+    {
+      "name": "diagnostics_login_signed_in",
+      "value": "已登录"
+    },
+    {
+      "name": "diagnostics_login_signed_out",
+      "value": "未登录"
+    },
+    {
+      "name": "diagnostics_network_available",
+      "value": "可用"
+    },
+    {
+      "name": "diagnostics_network_unavailable",
+      "value": "不可用"
+    },
+    {
+      "name": "diagnostics_player_playing",
+      "value": "正在播放"
+    },
+    {
+      "name": "diagnostics_player_loading",
+      "value": "正在加载"
+    },
+    {
+      "name": "diagnostics_player_paused",
+      "value": "已暂停"
+    },
+    {
+      "name": "diagnostics_player_error",
+      "value": "播放错误"
+    },
+    {
+      "name": "diagnostics_player_idle",
+      "value": "空闲"
+    },
+    {
+      "name": "diagnostics_mode_sequence",
+      "value": "顺序播放"
+    },
+    {
+      "name": "diagnostics_mode_repeat_one",
+      "value": "单曲循环"
+    },
+    {
+      "name": "diagnostics_mode_repeat_all",
+      "value": "列表循环"
+    },
+    {
+      "name": "diagnostics_mode_shuffle",
+      "value": "随机播放"
+    },
+    {
+      "name": "diagnostics_unknown",
+      "value": "未知"
+    },
+    {
+      "name": "diagnostics_no_error",
+      "value": "无"
+    },
+    {
+      "name": "player_error_message",
+      "value": "播放操作失败，请稍后重试。"
+    },
+    {
+      "name": "player_next",
+      "value": "下一首"
+    },
+    {
+      "name": "player_play",
+      "value": "播放"
+    },
+    {
+      "name": "player_pause",
+      "value": "暂停"
+    },
+    {
+      "name": "player_mode_sequence",
+      "value": "顺序播放"
+    },
+    {
+      "name": "player_mode_repeat_all",
+      "value": "列表循环"
+    },
+    {
+      "name": "player_mode_repeat_one",
+      "value": "单曲循环"
+    },
+    {
+      "name": "player_mode_shuffle",
+      "value": "随机播放"
+    },
+    {
+      "name": "player_unknown_track",
+      "value": "未知曲目"
+    },
+    {
+      "name": "player_unknown_artist",
+      "value": "未知作者"
+    },
+    {
+      "name": "player_empty_title",
+      "value": "播放器还没有内容"
+    },
+    {
+      "name": "player_empty_hint",
+      "value": "从搜索或资料库选择一首音乐开始播放。"
+    },
+    {
+      "name": "lyrics_candidates_title",
+      "value": "选择歌词版本"
+    },
+    {
+      "name": "lyrics_candidates_loading",
+      "value": "正在搜索歌词版本"
+    },
+    {
+      "name": "lyrics_candidates_empty_title",
+      "value": "没有找到其他歌词版本"
+    },
+    {
+      "name": "lyrics_candidates_error_title",
+      "value": "歌词搜索失败"
+    },
+    {
+      "name": "lyrics_candidates_error_hint",
+      "value": "当前歌词保持不变，请稍后重试。"
+    },
+    {
+      "name": "lyrics_candidates_retry",
+      "value": "重试"
+    },
+    {
+      "name": "lyrics_candidates_selecting",
+      "value": "正在应用"
+    },
+    {
+      "name": "lyrics_candidate_unknown_album",
+      "value": "未知专辑"
+    },
+    {
+      "name": "lyrics_candidate_selection_error",
+      "value": "所选歌词暂时无法使用，请重试。"
+    },
+    {
+      "name": "lyrics_collapse",
+      "value": "收起歌词"
+    },
+    {
+      "name": "lyrics_loading",
+      "value": "正在加载歌词"
+    },
+    {
+      "name": "lyrics_empty_title",
+      "value": "暂无歌词"
+    },
+    {
+      "name": "lyrics_empty_hint",
+      "value": "当前曲目没有可用歌词。"
+    },
+    {
+      "name": "lyrics_unsynced_label",
+      "value": "纯文本歌词"
+    },
+    {
+      "name": "lyrics_error_title",
+      "value": "歌词加载失败"
+    },
+    {
+      "name": "lyrics_error_hint",
+      "value": "播放控制不受影响。"
+    },
+    {
+      "name": "lyrics_error_retry",
+      "value": "重试"
+    },
+    {
+      "name": "player_lyric_open",
+      "value": "查看完整歌词"
+    },
+    {
+      "name": "mini_player_play",
+      "value": "播放"
+    },
+    {
+      "name": "mini_player_pause",
+      "value": "暂停"
+    },
+    {
+      "name": "mini_player_expand",
+      "value": "打开播放器"
+    },
+    {
+      "name": "playback_error_queue_title",
+      "value": "播放队列为空"
+    },
+    {
+      "name": "playback_error_queue_message",
+      "value": "从搜索或资料库添加音乐后再播放。"
+    },
+    {
+      "name": "playback_error_source_title",
+      "value": "暂时无法播放"
+    },
+    {
+      "name": "playback_error_source_message",
+      "value": "当前曲目的播放地址或音频加载失败，请稍后重试。"
+    },
+    {
+      "name": "playback_error_media_title",
+      "value": "当前曲目不可用"
+    },
+    {
+      "name": "playback_error_media_message",
+      "value": "没有找到可播放的音频流，请尝试其他曲目。"
+    },
+    {
+      "name": "playback_error_network_title",
+      "value": "网络连接异常"
+    },
+    {
+      "name": "playback_error_network_message",
+      "value": "请检查网络连接后重试。"
+    },
+    {
+      "name": "playback_error_unknown_title",
+      "value": "播放失败"
+    },
+    {
+      "name": "playback_error_unknown_message",
+      "value": "播放暂时无法继续，请稍后重试。"
+    },
+    {
+      "name": "playback_error_retry",
+      "value": "重试"
+    },
+    {
+      "name": "playback_error_retrying",
+      "value": "正在重试"
+    },
+    {
+      "name": "route_player_empty",
+      "value": "播放器还没有内容"
+    },
+    {
+      "name": "route_player_hint",
+      "value": "播放能力接入后将在这里显示。"
+    },
+    {
+      "name": "route_queue_title",
+      "value": "队列"
+    },
+    {
+      "name": "route_queue_empty",
+      "value": "队列还没有内容"
+    },
+    {
+      "name": "route_queue_hint",
+      "value": "加入播放的曲目将在这里显示。"
+    },
+    {
+      "name": "queue_count_suffix",
+      "value": "首"
+    },
+    {
+      "name": "queue_current",
+      "value": "正在播放"
+    },
+    {
+      "name": "queue_remove",
+      "value": "移除"
+    },
+    {
+      "name": "queue_more",
+      "value": "更多操作"
+    },
+    {
+      "name": "queue_removing",
+      "value": "移除中"
+    },
+    {
+      "name": "queue_clear",
+      "value": "清空"
+    },
+    {
+      "name": "queue_clearing",
+      "value": "清空中"
+    },
+    {
+      "name": "queue_empty_title",
+      "value": "播放队列为空"
+    },
+    {
+      "name": "queue_empty_description",
+      "value": "从搜索或资料库选择音乐后，曲目会出现在这里。"
+    },
+    {
+      "name": "queue_empty_back",
+      "value": "返回"
+    },
+    {
+      "name": "queue_empty_search",
+      "value": "去搜索"
+    },
+    {
+      "name": "queue_clear_title",
+      "value": "清空播放队列"
+    },
+    {
+      "name": "queue_clear_message",
+      "value": "队列中的全部曲目将被移除，当前播放也会停止。"
+    },
+    {
+      "name": "queue_clear_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "queue_clear_confirm",
+      "value": "清空"
+    },
+    {
+      "name": "playlist_track_suffix",
+      "value": "首"
+    },
+    {
+      "name": "playlist_rename",
+      "value": "重命名"
+    },
+    {
+      "name": "playlist_save",
+      "value": "保存"
+    },
+    {
+      "name": "playlist_saving",
+      "value": "保存中"
+    },
+    {
+      "name": "playlist_delete",
+      "value": "删除"
+    },
+    {
+      "name": "playlist_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "playlist_delete_title",
+      "value": "删除歌单？"
+    },
+    {
+      "name": "playlist_delete_message",
+      "value": "歌单内的曲目会从该歌单移除，歌曲收藏不受影响。"
+    },
+    {
+      "name": "playlist_delete_confirm",
+      "value": "删除"
+    },
+    {
+      "name": "playlist_name_create_title",
+      "value": "新建歌单"
+    },
+    {
+      "name": "playlist_name_rename_title",
+      "value": "重命名歌单"
+    },
+    {
+      "name": "playlist_name_placeholder",
+      "value": "输入歌单名称"
+    },
+    {
+      "name": "playlist_create_name_placeholder",
+      "value": "输入歌单名称"
+    },
+    {
+      "name": "playlist_name_limit",
+      "value": "最多 60 个字符。"
+    },
+    {
+      "name": "playlist_name_empty_error",
+      "value": "名称不能为空。"
+    },
+    {
+      "name": "playlist_name_long_error",
+      "value": "名称不能超过 60 个字符。"
+    },
+    {
+      "name": "playlist_busy_error",
+      "value": "另一个歌单操作正在进行，请稍候。"
+    },
+    {
+      "name": "playlist_not_found_error",
+      "value": "歌单已不存在，请刷新列表。"
+    },
+    {
+      "name": "playlist_save_error",
+      "value": "保存失败，请稍后重试。"
+    },
+    {
+      "name": "playlist_create_cover_add",
+      "value": "添加封面"
+    },
+    {
+      "name": "playlist_create_cover_change",
+      "value": "更换封面"
+    },
+    {
+      "name": "playlist_create_cover_failed",
+      "value": "图片处理失败，请重试。"
+    },
+    {
+      "name": "playlist_create_description_placeholder",
+      "value": "选填，简单描述这张歌单"
+    },
+    {
+      "name": "playlist_create_submit",
+      "value": "创建"
+    },
+    {
+      "name": "playlist_create_submitting",
+      "value": "创建中…"
+    },
+    {
+      "name": "playlist_create_failed",
+      "value": "创建失败，请稍后重试。"
+    },
+    {
+      "name": "playlist_error",
+      "value": "歌单操作失败，请稍后重试。"
+    },
+    {
+      "name": "playlist_error_dismiss",
+      "value": "知道了"
+    },
+    {
+      "name": "playlist_detail_default_name",
+      "value": "歌单"
+    },
+    {
+      "name": "playlist_detail_play_all",
+      "value": "全部播放"
+    },
+    {
+      "name": "playlist_detail_select",
+      "value": "多选"
+    },
+    {
+      "name": "playlist_detail_exit_select",
+      "value": "退出多选"
+    },
+    {
+      "name": "playlist_detail_select_all",
+      "value": "全选"
+    },
+    {
+      "name": "playlist_detail_unknown_track",
+      "value": "未知曲目"
+    },
+    {
+      "name": "playlist_detail_unknown_artist",
+      "value": "未知作者"
+    },
+    {
+      "name": "playlist_detail_error",
+      "value": "歌单操作失败，曲目仍保留在列表中，请稍后重试。"
+    },
+    {
+      "name": "playlist_detail_error_dismiss",
+      "value": "知道了"
+    },
+    {
+      "name": "playlist_detail_empty_title",
+      "value": "歌单还是空的"
+    },
+    {
+      "name": "playlist_detail_empty_description",
+      "value": "从搜索或播放器加入曲目后，会显示在这里。"
+    },
+    {
+      "name": "playlist_detail_missing_title",
+      "value": "歌单已不存在"
+    },
+    {
+      "name": "playlist_detail_missing_description",
+      "value": "它可能已在资料库中被删除。"
+    },
+    {
+      "name": "playlist_detail_back",
+      "value": "返回歌单列表"
+    },
+    {
+      "name": "playlist_detail_edit",
+      "value": "修改歌单信息"
+    },
+    {
+      "name": "playlist_detail_delete",
+      "value": "删除"
+    },
+    {
+      "name": "playlist_detail_add_to",
+      "value": "添加到"
+    },
+    {
+      "name": "playlist_edit_title",
+      "value": "编辑歌单"
+    },
+    {
+      "name": "playlist_edit_save",
+      "value": "保存修改"
+    },
+    {
+      "name": "playlist_edit_saving",
+      "value": "保存中…"
+    },
+    {
+      "name": "track_action_title",
+      "value": "更多操作"
+    },
+    {
+      "name": "track_action_batch_title",
+      "value": "添加到"
+    },
+    {
+      "name": "track_action_more",
+      "value": "更多"
+    },
+    {
+      "name": "track_action_favorite_add",
+      "value": "收藏"
+    },
+    {
+      "name": "track_action_favorite_remove",
+      "value": "取消收藏"
+    },
+    {
+      "name": "track_action_favorite_batch",
+      "value": "加入我喜欢的"
+    },
+    {
+      "name": "track_action_favorite_batch_all",
+      "value": "所选曲目已在喜欢中"
+    },
+    {
+      "name": "track_action_download",
+      "value": "下载"
+    },
+    {
+      "name": "track_action_download_batch",
+      "value": "下载所选歌曲"
+    },
+    {
+      "name": "track_action_working",
+      "value": "处理中"
+    },
+    {
+      "name": "track_action_playlist_section",
+      "value": "加入到歌单"
+    },
+    {
+      "name": "track_action_adding",
+      "value": "加入中"
+    },
+    {
+      "name": "track_action_add_playlist",
+      "value": "加入歌单"
+    },
+    {
+      "name": "track_action_added_playlist",
+      "value": "已在歌单中"
+    },
+    {
+      "name": "track_action_no_playlists",
+      "value": "还没有歌单，可以先去「我的」里创建。"
+    },
+    {
+      "name": "track_action_batch_no_playlists",
+      "value": "还没有歌单，可以先去「我的」里创建。"
+    },
+    {
+      "name": "track_action_favorite_added",
+      "value": "已收藏"
+    },
+    {
+      "name": "track_action_favorite_removed",
+      "value": "已取消收藏"
+    },
+    {
+      "name": "track_action_playlist_created",
+      "value": "已新建歌单并加入当前曲目。"
+    },
+    {
+      "name": "track_action_duplicate",
+      "value": "该歌单已包含当前曲目。"
+    },
+    {
+      "name": "track_action_playlist_missing",
+      "value": "歌单已删除，请选择其他歌单。"
+    },
+    {
+      "name": "track_action_invalid_name",
+      "value": "请输入 1 至 60 个字符的歌单名称。"
+    },
+    {
+      "name": "track_action_write_failed",
+      "value": "保存失败，收藏和歌单内容未改变。"
+    },
+    {
+      "name": "track_action_capacity",
+      "value": "歌单数量或歌单曲目数量已达上限。"
+    },
+    {
+      "name": "track_action_busy",
+      "value": "上一个操作仍在处理中，请稍候。"
+    },
+    {
+      "name": "track_action_failed",
+      "value": "操作失败，请稍后重试。"
+    },
+    {
+      "name": "route_playlist_empty",
+      "value": "歌单信息不可用"
+    },
+    {
+      "name": "route_playlist_hint",
+      "value": "请返回歌单列表后重试。"
+    },
+    {
+      "name": "player_favorite",
+      "value": "收藏"
+    },
+    {
+      "name": "player_unfavorite",
+      "value": "已收藏"
+    },
+    {
+      "name": "player_more",
+      "value": "更多操作"
+    },
+    {
+      "name": "player_nav_discover",
+      "value": "发现"
+    },
+    {
+      "name": "player_nav_library",
+      "value": "我的"
+    },
+    {
+      "name": "mine_account_signed_out_description",
+      "value": "登录，遇见更多喜欢"
+    },
+    {
+      "name": "mine_profile_loading",
+      "value": "正在加载账号信息"
+    },
+    {
+      "name": "mine_profile_load_failed",
+      "value": "账号信息加载失败"
+    },
+    {
+      "name": "mine_profile_retry",
+      "value": "点击重试"
+    },
+    {
+      "name": "mine_account_signed_in",
+      "value": "已连接"
+    },
+    {
+      "name": "mine_section_downloads",
+      "value": "下载"
+    },
+    {
+      "name": "mine_section_history",
+      "value": "历史"
+    },
+    {
+      "name": "mine_liked_title",
+      "value": "我喜欢的"
+    },
+    {
+      "name": "mine_liked_play",
+      "value": "播放我喜欢的"
+    },
+    {
+      "name": "mine_history_play",
+      "value": "播放历史"
+    },
+    {
+      "name": "mine_downloads_play",
+      "value": "播放下载"
+    },
+    {
+      "name": "mine_playlist_play",
+      "value": "播放歌单"
+    },
+    {
+      "name": "mine_create_playlist",
+      "value": "新建歌单"
+    },
+    {
+      "name": "mine_downloads_empty_title",
+      "value": "还没有下载"
+    },
+    {
+      "name": "mine_downloads_empty_description",
+      "value": "下载的歌曲会保存在本机，离线也能播放。"
+    },
+    {
+      "name": "mine_playlist_actions_title",
+      "value": "歌单操作"
+    },
+    {
+      "name": "sheet_close",
+      "value": "关闭"
+    },
+    {
+      "name": "player_control_title",
+      "value": "播放控制"
+    },
+    {
+      "name": "player_panel_back",
+      "value": "返回"
+    },
+    {
+      "name": "player_panel_timer",
+      "value": "定时关闭"
+    },
+    {
+      "name": "player_panel_download",
+      "value": "下载"
+    },
+    {
+      "name": "player_panel_download_hint",
+      "value": "保存到本机"
+    },
+    {
+      "name": "player_panel_downloading",
+      "value": "下载中"
+    },
+    {
+      "name": "player_panel_downloaded",
+      "value": "已下载"
+    },
+    {
+      "name": "player_panel_quality",
+      "value": "音质选择"
+    },
+    {
+      "name": "audio_quality_high",
+      "value": "高品质"
+    },
+    {
+      "name": "audio_quality_standard",
+      "value": "标准"
+    },
+    {
+      "name": "audio_quality_low",
+      "value": "省流"
+    },
+    {
+      "name": "audio_quality_current",
+      "value": "当前：%s"
+    },
+    {
+      "name": "audio_quality_footer",
+      "value": "曲目不支持所选音质时会自动降级，更高音质会消耗更多流量。"
+    },
+    {
+      "name": "download_quality_footer",
+      "value": "曲目不支持所选品质时会自动降级；品质越高，下载文件越大。"
+    },
+    {
+      "name": "audio_quality_save_failed",
+      "value": "音质设置保存失败，请稍后重试。"
+    },
+    {
+      "name": "player_panel_add",
+      "value": "加歌单"
+    },
+    {
+      "name": "player_panel_add_hint",
+      "value": "选个歌单"
+    },
+    {
+      "name": "player_panel_mode_hint",
+      "value": "当前模式"
+    },
+    {
+      "name": "sleep_timer_pause_hint",
+      "value": "到点后自动暂停播放"
+    },
+    {
+      "name": "sleep_timer_set",
+      "value": "设置"
+    },
+    {
+      "name": "sleep_timer_cancel",
+      "value": "关闭定时"
+    },
+    {
+      "name": "sleep_timer_footer",
+      "value": "关闭抽屉后仍会继续计时"
+    },
+    {
+      "name": "collection_detail_back",
+      "value": "返回"
+    },
+    {
+      "name": "collection_detail_default_name",
+      "value": "合集"
+    },
+    {
+      "name": "collection_detail_play_all",
+      "value": "全部播放"
+    },
+    {
+      "name": "collection_detail_select",
+      "value": "多选"
+    },
+    {
+      "name": "collection_detail_exit_select",
+      "value": "退出多选"
+    },
+    {
+      "name": "collection_detail_select_all",
+      "value": "全选"
+    },
+    {
+      "name": "collection_detail_add_to",
+      "value": "添加到"
+    },
+    {
+      "name": "collection_detail_favorite_error",
+      "value": "收藏操作失败，请稍后重试。"
+    },
+    {
+      "name": "collection_detail_loading_title",
+      "value": "正在加载合集"
+    },
+    {
+      "name": "collection_detail_loading_message",
+      "value": "正在获取合集曲目…"
+    },
+    {
+      "name": "collection_detail_error_title",
+      "value": "合集加载失败"
+    },
+    {
+      "name": "collection_detail_error_message",
+      "value": "请检查网络后重试。"
+    },
+    {
+      "name": "collection_detail_retry",
+      "value": "重试"
+    },
+    {
+      "name": "collection_detail_empty_title",
+      "value": "合集没有曲目"
+    },
+    {
+      "name": "collection_detail_empty_message",
+      "value": "这个合集暂时没有可播放的内容。"
+    },
+    {
+      "name": "collection_detail_unavailable_title",
+      "value": "合集不可用"
+    },
+    {
+      "name": "collection_detail_unavailable_message",
+      "value": "合集信息不完整，请返回重试。"
+    }
+  ]
+}

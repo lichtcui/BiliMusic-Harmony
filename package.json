@@ -1,0 +1,27 @@
+{
+  "name": "wisp-music",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "wisp-music native HarmonyOS phone application.",
+  "license": "MIT",
+  "ohos": {
+    "org": "com.lichtcui",
+    "buildTool": "hvigor",
+    "directoryLevel": "project"
+  },
+  "scripts": {
+    "test": "node scripts/test.mjs",
+    "build": "node scripts/build.mjs",
+    "verify": "node scripts/verify.mjs",
+    "check:signing": "node scripts/signing-boundary.mjs",
+    "check:theme": "node scripts/theme.mjs --check",
+    "check:ui-ids": "node scripts/ui-ids.mjs --check",
+    "signing:apply": "node scripts/local-signing.mjs apply",
+    "signing:restore": "node scripts/local-signing.mjs restore",
+    "signing:status": "node scripts/local-signing.mjs status"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

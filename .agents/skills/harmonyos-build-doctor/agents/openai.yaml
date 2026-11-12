@@ -1,0 +1,4 @@
+interface:
+  display_name: "HarmonyOS Build Doctor"
+  short_description: "Diagnose DevEco CLI build failures safely"
+  default_prompt: "Use $harmonyos-build-doctor to diagnose this DevEco command-line build failure without changing application code first."

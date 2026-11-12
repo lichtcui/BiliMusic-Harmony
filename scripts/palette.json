@@ -1,0 +1,229 @@
+{
+  "comment": [
+    "颜色唯一真源。禁止手工修改 entry/src/main/resources/{base,dark}/element/color.json——它们由",
+    "`node scripts/theme.mjs --write` 生成，`node scripts/theme.mjs --check`（见 AGENTS.md 的颜色流程）会拦住手改。",
+    "primitives 只描述原始色值，允许出现颜色词；semantic 的键名描述用途，禁止颜色词（规则 5）。",
+    "每个 semantic 键都必须同时给出 light 与 dark：dark 是覆盖层，缺键会静默回落 base。",
+    "light/dark 的值要么是 primitives 里的键，要么是字面 8 位 ARGB（#AARRGGBB）。",
+    "2026-11 第二次调色（「我的」页设计稿 v2）：中性色统一到微绿灰，去掉暖灰与绿系文字之间的色温分裂。",
+    "页面底改为微暖白 #FFFCFCFB（canvasWarm），浮层（dock 胶囊 / 迷你播放器 / 卡片）用纯白 paper，",
+    "形成「纸叠纸」层级，不再用纯白铺满全页；深色 line 提亮到 #FF343A35，边框可见。",
+    "二维码纸面与墨色改为随主题各取一组 primitive：light 微绿纸 + 深墨，dark 稍暗纸面 + 近黑墨，",
+    "两边都保持高对比，不再是固定纯黑 / 同一张浅灰纸。",
+    "浮层阴影 native_dock_shadow 换成微绿黑：light 取 14% #121814，dark 取 60% 纯黑。",
+    "HTML 提供 13 个基础角色；其余角色按同一层级派生：chip/sheet 贴近 surface，",
+    "segment_thumb 改用 accent 以保证选中文字与 on_accent 的可读性。",
+    "native_control_thumb：设置页开关的拇指，稿件两套主题都写死 #FFFFFF，因此 light/dark 同取 paper。",
+    "2026-11 设置页从底部抽屉改成整页：卡片版式的 group_canvas / group_card 与抽屉关闭按钮圆底",
+    "随旧外壳一起移除，设置页只用 bg / line / surface_inset / chip_unselected 等通用角色。",
+    "native_dock_shadow：悬浮 dock（导航胶囊 + 迷你播放器）的唯一阴影色；light 取低对比，dark 加重，",
+    "满足「新增语义角色必须被引用」的守卫规则。",
+    "保持模式无关的角色：action_tile / on_action_tile（功能抽屉深色方块）、start_window_background",
+    "（启动窗口底色，取 app 图标底色）、scrim（弹层蒙层）。",
+    "native_login_sheet_surface：登录 / 账号抽屉的画布，稿件取 var(--native-bg)，",
+    "即 light 与页面底同为 canvasWarm、dark 用 surface。",
+    "2026-11 抽屉统一：登录 / 功能面板 / 曲目操作 / 诊断 / 歌词换源共用同一个外壳与同一张画布，",
+    "旧的 native_sheet_surface（纯白卡面）不再被引用，随统一一起移除。",
+    "native_danger / native_danger_border：危险动作（退出登录）的文字与描边；描边取 42% danger + 58% line",
+    "的混色（HTML 的 color-mix），light/dark 各自计算，保证按钮不会抢过文字。",
+    "iconNavy：app_icon.png 的底色（1024×1024 实测 #FF1E2A4A，幽灵图标）。start_window_background 取它，让启动窗口里的图标与背景无缝衔接。",
+    "logoOrange500：app_icon.png 里音乐发夹的原色 #C8573A，只用于「正在播放」的图形标记（图标 + 色条），",
+    "图形按 3:1 可用即可。标题文字另取加深/提亮一档：light 用 logoOrange700（在页面底上 5.8:1），",
+    "dark 用 nightLogoOrange（在 nightSurface 上 8.3:1），保证列表标题可读。",
+    "「正在播放」不铺行底色，只靠标记色与标题色区分，避免和列表选中态混淆。"
+  ],
+  "primitives": {
+    "canvasWarm": "#FFFCFCFB",
+    "canvasWarmClear": "#00FCFCFB",
+    "paper": "#FFFFFFFF",
+    "insetSage": "#FFECEFEA",
+    "ink900": "#FF1E231F",
+    "ink500": "#FF6B7069",
+    "accent700": "#FF3A6650",
+    "accent50": "#FFE8EFE9",
+    "lineSage": "#FFE4E8E3",
+    "sand300": "#FFF0D9A8",
+    "sand800": "#FF6B4E17",
+    "qrPaperSage": "#FFF1F2EF",
+    "nightCanvas": "#FF111312",
+    "nightSurface": "#FF1C1F1D",
+    "nightSurfaceClear": "#001C1F1D",
+    "nightInset": "#FF262A27",
+    "nightInk": "#FFECEAE4",
+    "nightInkMuted": "#FF9BA29B",
+    "nightAccent": "#FF93C6A6",
+    "nightAccentSoft": "#FF22302A",
+    "nightLine": "#FF343A35",
+    "nightSand": "#FFE8C98A",
+    "nightSandInk": "#FF1A1408",
+    "nightOnAccent": "#FF0F1311",
+    "qrPaperNight": "#FFE8EAE6",
+    "qrInkNight": "#FF1A1D19",
+    "danger700": "#FFB5443B",
+    "dangerLine": "#FFD0A39C",
+    "nightDanger": "#FFE8887E",
+    "nightDangerLine": "#FF805B54",
+    "shadowSoft": "#24121814",
+    "shadowDeep": "#99000000",
+    "plum900": "#FF5D546A",
+    "cream100": "#FFF7F3ED",
+    "iconNavy": "#FF1E2A4A",
+    "logoOrange500": "#FFC8573A",
+    "logoOrange700": "#FFA8452C",
+    "nightLogoOrange": "#FFE7A992"
+  },
+  "semantic": {
+    "start_window_background": {
+      "light": "iconNavy",
+      "dark": "iconNavy"
+    },
+    "native_bg": {
+      "light": "canvasWarm",
+      "dark": "nightCanvas"
+    },
+    "native_player_canvas": {
+      "light": "canvasWarm",
+      "dark": "nightCanvas"
+    },
+    "native_surface": {
+      "light": "paper",
+      "dark": "nightSurface"
+    },
+    "native_login_sheet_surface": {
+      "light": "canvasWarm",
+      "dark": "nightSurface"
+    },
+    "native_sheet_fade": {
+      "light": "canvasWarmClear",
+      "dark": "nightSurfaceClear"
+    },
+    "native_surface_inset": {
+      "light": "insetSage",
+      "dark": "nightInset"
+    },
+    "native_text_primary": {
+      "light": "ink900",
+      "dark": "nightInk"
+    },
+    "native_text_secondary": {
+      "light": "ink500",
+      "dark": "nightInkMuted"
+    },
+    "native_accent": {
+      "light": "accent700",
+      "dark": "nightAccent"
+    },
+    "native_accent_soft": {
+      "light": "accent50",
+      "dark": "nightAccentSoft"
+    },
+    "native_chip_unselected": {
+      "light": "insetSage",
+      "dark": "nightInset"
+    },
+    "native_line": {
+      "light": "lineSage",
+      "dark": "nightLine"
+    },
+    "native_sheet_handle": {
+      "light": "lineSage",
+      "dark": "nightLine"
+    },
+    "native_sheet_divider": {
+      "light": "lineSage",
+      "dark": "nightLine"
+    },
+    "native_accent_action": {
+      "light": "sand300",
+      "dark": "nightSand"
+    },
+    "native_on_accent_action": {
+      "light": "sand800",
+      "dark": "nightSandInk"
+    },
+    "native_quick_liked_surface": {
+      "light": "sand300",
+      "dark": "#FF3A3220"
+    },
+    "native_quick_liked_content": {
+      "light": "sand800",
+      "dark": "nightSand"
+    },
+    "native_quick_create_outline": {
+      "light": "#6B3A6650",
+      "dark": "#6B93C6A6"
+    },
+    "native_action_tile": {
+      "light": "plum900",
+      "dark": "plum900"
+    },
+    "native_on_action_tile": {
+      "light": "cream100",
+      "dark": "cream100"
+    },
+    "native_icon_on_inset": {
+      "light": "ink500",
+      "dark": "nightInkMuted"
+    },
+    "native_progress_track": {
+      "light": "lineSage",
+      "dark": "nightLine"
+    },
+    "native_control_track": {
+      "light": "accent700",
+      "dark": "nightAccent"
+    },
+    "native_control_thumb": {
+      "light": "paper",
+      "dark": "paper"
+    },
+    "native_on_accent": {
+      "light": "paper",
+      "dark": "nightOnAccent"
+    },
+    "native_icon_inactive": {
+      "light": "ink500",
+      "dark": "nightInkMuted"
+    },
+    "native_qr_paper": {
+      "light": "qrPaperSage",
+      "dark": "qrPaperNight"
+    },
+    "native_qr_ink": {
+      "light": "ink900",
+      "dark": "qrInkNight"
+    },
+    "native_danger": {
+      "light": "danger700",
+      "dark": "nightDanger"
+    },
+    "native_danger_border": {
+      "light": "dangerLine",
+      "dark": "nightDangerLine"
+    },
+    "native_scrim": {
+      "light": "#66000000",
+      "dark": "#B3000000"
+    },
+    "native_segment_thumb": {
+      "light": "accent700",
+      "dark": "nightAccent"
+    },
+    "native_dock_shadow": {
+      "light": "shadowSoft",
+      "dark": "shadowDeep"
+    },
+    "native_on_splash": {
+      "light": "cream100",
+      "dark": "cream100"
+    },
+    "native_now_playing_mark": {
+      "light": "logoOrange500",
+      "dark": "nightLogoOrange"
+    },
+    "native_now_playing": {
+      "light": "logoOrange700",
+      "dark": "nightLogoOrange"
+    }
+  }
+}

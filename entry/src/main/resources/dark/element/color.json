@@ -1,0 +1,156 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FF1E2A4A"
+    },
+    {
+      "name": "native_bg",
+      "value": "#FF111312"
+    },
+    {
+      "name": "native_player_canvas",
+      "value": "#FF111312"
+    },
+    {
+      "name": "native_surface",
+      "value": "#FF1C1F1D"
+    },
+    {
+      "name": "native_login_sheet_surface",
+      "value": "#FF1C1F1D"
+    },
+    {
+      "name": "native_sheet_fade",
+      "value": "#001C1F1D"
+    },
+    {
+      "name": "native_surface_inset",
+      "value": "#FF262A27"
+    },
+    {
+      "name": "native_text_primary",
+      "value": "#FFECEAE4"
+    },
+    {
+      "name": "native_text_secondary",
+      "value": "#FF9BA29B"
+    },
+    {
+      "name": "native_accent",
+      "value": "#FF93C6A6"
+    },
+    {
+      "name": "native_accent_soft",
+      "value": "#FF22302A"
+    },
+    {
+      "name": "native_chip_unselected",
+      "value": "#FF262A27"
+    },
+    {
+      "name": "native_line",
+      "value": "#FF343A35"
+    },
+    {
+      "name": "native_sheet_handle",
+      "value": "#FF343A35"
+    },
+    {
+      "name": "native_sheet_divider",
+      "value": "#FF343A35"
+    },
+    {
+      "name": "native_accent_action",
+      "value": "#FFE8C98A"
+    },
+    {
+      "name": "native_on_accent_action",
+      "value": "#FF1A1408"
+    },
+    {
+      "name": "native_quick_liked_surface",
+      "value": "#FF3A3220"
+    },
+    {
+      "name": "native_quick_liked_content",
+      "value": "#FFE8C98A"
+    },
+    {
+      "name": "native_quick_create_outline",
+      "value": "#6B93C6A6"
+    },
+    {
+      "name": "native_action_tile",
+      "value": "#FF5D546A"
+    },
+    {
+      "name": "native_on_action_tile",
+      "value": "#FFF7F3ED"
+    },
+    {
+      "name": "native_icon_on_inset",
+      "value": "#FF9BA29B"
+    },
+    {
+      "name": "native_progress_track",
+      "value": "#FF343A35"
+    },
+    {
+      "name": "native_control_track",
+      "value": "#FF93C6A6"
+    },
+    {
+      "name": "native_control_thumb",
+      "value": "#FFFFFFFF"
+    },
+    {
+      "name": "native_on_accent",
+      "value": "#FF0F1311"
+    },
+    {
+      "name": "native_icon_inactive",
+      "value": "#FF9BA29B"
+    },
+    {
+      "name": "native_qr_paper",
+      "value": "#FFE8EAE6"
+    },
+    {
+      "name": "native_qr_ink",
+      "value": "#FF1A1D19"
+    },
+    {
+      "name": "native_danger",
+      "value": "#FFE8887E"
+    },
+    {
+      "name": "native_danger_border",
+      "value": "#FF805B54"
+    },
+    {
+      "name": "native_scrim",
+      "value": "#B3000000"
+    },
+    {
+      "name": "native_segment_thumb",
+      "value": "#FF93C6A6"
+    },
+    {
+      "name": "native_dock_shadow",
+      "value": "#99000000"
+    },
+    {
+      "name": "native_on_splash",
+      "value": "#FFF7F3ED"
+    },
+    {
+      "name": "native_now_playing_mark",
+      "value": "#FFE7A992"
+    },
+    {
+      "name": "native_now_playing",
+      "value": "#FFE7A992"
+    }
+  ]
+}

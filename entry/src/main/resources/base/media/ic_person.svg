@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 我的：描边头像，与 design/mine-page.html 的 #i-person 一致。
+     设计稿用 icon-fill 填充头部与肩部；ArkUI 里改为透明，靠 colorFilter 染色。 -->
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="7.5" r="3.5" fill="none" stroke="#000000" stroke-width="1.8"/>
+<path d="M4 19C4 15.134 7.582 12 12 12C16.418 12 20 15.134 20 19" fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
